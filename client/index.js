@@ -1,5 +1,5 @@
 import axios from 'axios';
-axios.defaults.timeout = 2000;
+axios.defaults.timeout = 2000; 
 
 const teacherList = document.querySelector('#teachers');
 const unassignedList = document.querySelector('#unassigned');
